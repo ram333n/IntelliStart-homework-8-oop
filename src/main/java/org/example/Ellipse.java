@@ -1,10 +1,5 @@
 package org.example;
 
-import lombok.Getter;
-import lombok.Setter;
-
-@Getter
-@Setter
 public class Ellipse extends Shape {
     protected Point center;
     protected double majorRadius;
@@ -14,6 +9,30 @@ public class Ellipse extends Shape {
         super(name);
         this.center = center;
         this.majorRadius = majorRadius;
+        this.minorRadius = minorRadius;
+    }
+
+    public Point getCenter() {
+        return center;
+    }
+
+    public void setCenter(Point center) {
+        this.center = center;
+    }
+
+    public final double getMajorRadius() {
+        return majorRadius;
+    }
+
+    public final void setMajorRadius(double majorRadius) {
+        this.majorRadius = majorRadius;
+    }
+
+    public final double getMinorRadius() {
+        return minorRadius;
+    }
+
+    public final void setMinorRadius(double minorRadius) {
         this.minorRadius = minorRadius;
     }
 }
