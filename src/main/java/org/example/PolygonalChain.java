@@ -2,8 +2,7 @@ package org.example;
 
 import java.util.List;
 
-public abstract class Polyline extends Shape {
-    //TODO check if getVertices gets const version of List
+public class Polyline extends Shape {
     protected final List<Point> vertices;
     protected boolean isPolygon;
 
@@ -11,4 +10,6 @@ public abstract class Polyline extends Shape {
         super(name);
         this.vertices = vertices;
     }
+
+    protected isCycled
 }
