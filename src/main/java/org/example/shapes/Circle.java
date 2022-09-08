@@ -1,4 +1,6 @@
-package org.example;
+package org.example.shapes;
+
+import org.example.point.Point;
 
 public class Circle extends Ellipse {
     public Circle(String name, Point center, double radius) {

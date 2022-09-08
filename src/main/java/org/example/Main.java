@@ -1,5 +1,9 @@
 package org.example;
 
+import org.example.point.Point;
+import org.example.shape_printer.ShapePrinter;
+import org.example.shapes.*;
+
 import java.util.ArrayList;
 import java.util.List;
 

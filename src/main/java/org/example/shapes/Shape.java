@@ -1,4 +1,4 @@
-package org.example;
+package org.example.shapes;
 
 public abstract class Shape {
     protected final String name;

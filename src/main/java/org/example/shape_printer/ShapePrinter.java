@@ -1,4 +1,6 @@
-package org.example;
+package org.example.shape_printer;
+
+import org.example.shapes.Shape;
 
 public class ShapePrinter {
     public void printShape(Shape shape) {

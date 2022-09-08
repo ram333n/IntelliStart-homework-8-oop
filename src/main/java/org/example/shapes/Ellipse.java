@@ -1,4 +1,6 @@
-package org.example;
+package org.example.shapes;
+
+import org.example.point.Point;
 
 public class Ellipse extends Shape {
     protected Point center;
